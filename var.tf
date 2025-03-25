@@ -23,4 +23,3 @@ variable "instance_configurations" {
 
   
 }
-

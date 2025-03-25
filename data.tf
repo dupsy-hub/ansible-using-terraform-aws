@@ -26,7 +26,7 @@ data "aws_ami" "debian" {
 
   filter {
     name   = "name"
-    values = ["debian-*-hvm-*"]
+    values = ["debian-*"]
   }
-  owners = ["379101102735"] # Debian account ID
+  owners = ["099720109477", "381491949215", "136693071363"]  # Canonical, Debian, and AWS marketplace
 }
